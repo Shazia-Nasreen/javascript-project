@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Movie Database</h1>
+      <div>
+        <button id="top-rated-movies-button">Top Rated Movies</button>
+        <button id="popular-movies-button">Popular Movies</button>
+        <button id="random-movie-button">Random Movie</button>
+      </div>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search..." />
+        <select id="search-type">
+          <option value="movie">Movie</option>
+          <option value="person">Person</option>
+          <option value="tv">TV Show</option>
+        </select>
+        <button type="submit" id="search-button">Search</button>
+      </form>
+    </header>
+
+    <div id="search-results" class="search-results"></div>
+
+    <footer>
+      <p>&copy; 2024 Movie Database</p>
+    </footer>
+  </body>
+</html>
